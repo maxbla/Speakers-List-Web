@@ -1,0 +1,79 @@
+h1 {
+  font-size: 48pt;
+  font-family: Arial;
+  font-weight: normal; /*makes header not bold*/
+  padding-top: 25px;
+  opacity:.6;
+}
+
+/*textarea {
+  resize: none;
+  font-size: 24pt;
+  line-height: 1;
+  border: none;
+  margin: 0;
+  padding: 0;
+  opacity: .8;
+  text-align: center;
+}*/
+
+input{
+  font-family: monospace;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div/*input*/{
+  outline: none; /*removes weird blue outline when highlighting div*/
+  font-size:48pt;
+  /*
+  background-color: #AAAAAA;
+  opacity:.5;
+  */
+  /*font-family: monospace;*/
+  /*width: 800px;*/
+  border-radius:10px
+}
+
+div#list {
+  font-family: monospace;
+  white-space: pre; /*renders multiple white spaces*/
+}
+
+table {
+  border-collapse: collapse;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+input#input{
+  outline: none;
+  font-size:48pt;
+  border-radius: 10px;
+  width: 800px;
+  text-align: center;
+  opacity:.6;
+}
+
+#input br {
+  /*prevents unwanted behavior of carriage return appearing transiently*/
+  display: none;
+}
+
+.MyGradientClass { /*creates nice background gradient*/
+  background-color: #9e9e9e;
+  background-image: -webkit-gradient(linear, left top, left bottom,
+                    from(#3d85f7), to(#043b93));
+  background-image: -webkit-linear-gradient(top, #3d85f7, #043b93);
+  background-image:    -moz-linear-gradient(top, #3d85f7, #043b93); /*firefox?*/
+  background-image:      -o-linear-gradient(top, #3d85f7, #043b93);
+  background-image:   linear-gradient(to bottom, #3d85f7, #043b93); /*chrome*/
+  height: 100%;
+}​
+
+/*swiped from w3schools at https://www.w3schools.com/css/css_tooltip.asp*/
