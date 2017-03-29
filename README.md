@@ -16,3 +16,5 @@ The javascript portion of this application uses [documentation](https://github.c
 
 ### To Do
 * Keep track of how many times each person has spoken
+* Add counter for how many people are on the list
+* Add an indicator and commands for open/closed status of speakers list
